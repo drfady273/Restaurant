@@ -1,0 +1,39 @@
+.container{
+    background-image: url("./Restaurant.png");
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    overflow: auto;
+}
+
+.content{
+
+text-align: center;
+margin-top: 250px;
+color:blue;
+text-shadow: #000000; 
+}
+.container h1{
+    color: orange;
+    font-size: 50px;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.container button{
+    background-color: orange;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 50px;
+}
+.overlay{
+    overflow: auto;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+}
